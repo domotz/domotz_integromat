@@ -1,0 +1,8 @@
+{
+    "name": "createEyeSnmpTrigger",
+    "label": "Create Eye SNMP Trigger",
+    "description": "Creates a new SNMP Trigger for the sensor. For instance, to receive a notification when the value of the sensor is above a threshold x, it is required to add a trigger specifying the function_id = 2 (is greater than) and the operand value equals to [x]. The function_id value can be retrieved with the List Eyes SNMP Trigger Function method. To activate the alert, it is required to call Create Eye SNMP Trigger Alert after the trigger creation.",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

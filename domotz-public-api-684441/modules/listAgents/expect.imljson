@@ -1,0 +1,26 @@
+[
+    {
+        "name": "page_size",
+        "label": "Page Size",
+        "help": "The maximum number of items to return",
+        "type": "integer"
+    },
+    {
+        "name": "page_number",
+        "label": "Page Number",
+        "help": "The requested page number, 0-indexed",
+        "type": "integer"
+    },
+    {
+        "name": "display_name",
+        "label": "Display Name",
+        "help": "Consider only agents with `display_name` containing the string (case insensitive)",
+        "type": "text"
+    },
+    {
+        "name": "team_name",
+        "label": "Team Name",
+        "help": "Filters by team name (companies only)",
+        "type": "text"
+    }
+]

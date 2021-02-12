@@ -1,0 +1,6 @@
+{
+    "name": "domotz-public-api-684441",
+    "label": "Domotz Webhook",
+    "connection": "domotz-public-api-684441",
+    "type": "web"
+}

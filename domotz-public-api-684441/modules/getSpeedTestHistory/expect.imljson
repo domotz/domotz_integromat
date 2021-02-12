@@ -1,0 +1,24 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": "rpc://browseAgents"
+    },
+    {
+        "name": "from",
+        "label": "From",
+        "help": "The start time of the time series. Default value is one week",
+        "type": "timestamp",
+        "advanced": true
+    },
+    {
+        "name": "to",
+        "label": "To",
+        "help": "The end time of the time series. Default value is now",
+        "type": "timestamp",
+        "advanced": true
+    }
+]

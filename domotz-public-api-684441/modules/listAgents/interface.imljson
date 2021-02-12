@@ -1,0 +1,114 @@
+[
+    {
+        "name": "id",
+        "type": "number"
+    },
+    {
+        "name": "display_name",
+        "type": "text"
+    },
+    {
+        "name": "access_right",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "status",
+                "type": "text"
+            },
+            {
+                "name": "api_enabled",
+                "type": "boolean"
+            },
+            {
+                "name": "granting_user",
+                "type": "collection",
+                "spec": [
+                    {
+                        "name": "name",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "creation_time",
+        "type": "text"
+    },
+    {
+        "name": "status",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "value",
+                "type": "text"
+            },
+            {
+                "name": "last_change",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "licence",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "id",
+                "type": "number"
+            },
+            {
+                "name": "code",
+                "type": "text"
+            },
+            {
+                "name": "bound_mac_address",
+                "type": "text"
+            },
+            {
+                "name": "activation_time",
+                "type": "text"
+            },
+            {
+                "name": "type",
+                "type": "text"
+            },
+            {
+                "name": "expiration_time",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "timezone",
+        "type": "text"
+    },
+    {
+        "name": "version",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "agent",
+                "type": "text"
+            },
+            {
+                "name": "package",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "location",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "latitude",
+                "type": "text"
+            },
+            {
+                "name": "longitude",
+                "type": "text"
+            }
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "version",
+        "label": "Version",
+        "help": "The configured SNMP version",
+        "type": "text"
+    },
+    {
+        "name": "snmp_read_community",
+        "label": "Snmp Read Community",
+        "type": "text"
+    },
+    {
+        "name": "snmp_write_community",
+        "label": "Snmp Write Community",
+        "type": "text"
+    },
+    {
+        "name": "username",
+        "label": "Username",
+        "type": "text"
+    },
+    {
+        "name": "authentication_protocol",
+        "label": "Authentication Protocol",
+        "help": "The SNMP authentication protocol",
+        "type": "text"
+    },
+    {
+        "name": "authentication_key",
+        "label": "Authentication Key",
+        "type": "text"
+    },
+    {
+        "name": "encryption_protocol",
+        "label": "Encryption Protocol",
+        "help": "The SNMP encryption protocol",
+        "type": "text"
+    },
+    {
+        "name": "encryption_key",
+        "label": "Encryption Key",
+        "type": "text"
+    }
+]

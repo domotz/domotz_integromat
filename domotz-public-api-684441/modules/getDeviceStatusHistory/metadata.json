@@ -1,0 +1,8 @@
+{
+    "name": "getDeviceStatusHistory",
+    "label": "Get Device Status History",
+    "description": "Returns the time series of the state changes of the device",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

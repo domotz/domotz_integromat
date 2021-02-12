@@ -1,0 +1,13 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/credentials",
+    "method": "PUT",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "username": "{{parameters.username}}",
+        "password": "{{parameters.password}}"
+    }
+}

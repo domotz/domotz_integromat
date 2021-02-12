@@ -1,0 +1,5 @@
+{
+    "name": "browseTcpSensors",
+    "label": "Browse TCP Sensors",
+    "connection": "domotz-public-api-684441"
+}

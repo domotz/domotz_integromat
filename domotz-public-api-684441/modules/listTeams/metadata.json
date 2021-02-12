@@ -1,0 +1,8 @@
+{
+    "name": "listTeams",
+    "label": "List Teams",
+    "description": "Returns all the teams of an area",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

@@ -1,0 +1,6 @@
+[
+    {
+        "name": "alert_profile_id",
+        "type": "number"
+    }
+]

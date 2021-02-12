@@ -1,0 +1,5 @@
+{
+    "name": "browseDevices",
+    "label": "Browse Devices",
+    "connection": "domotz-public-api-684441"
+}

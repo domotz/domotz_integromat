@@ -1,0 +1,10 @@
+[
+    {
+        "name": "alert_profile_id",
+        "type": "number"
+    },
+    {
+        "name": "device_id",
+        "type": "number"
+    }
+]

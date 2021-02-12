@@ -1,0 +1,12 @@
+{
+    "url": "/agent",
+    "method": "GET",
+    "response": {
+        "limit": 300,
+        "iterate": "{{body}}",
+        "output": {
+            "label": "{{item.display_name}}",
+            "value": "{{item.id}}"
+        }
+    }
+}

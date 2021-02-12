@@ -1,0 +1,8 @@
+{
+    "name": "unbindAlertProfileFromAgent",
+    "label": "Unbind Alert Profile From Agent",
+    "description": "Unbinds an alert profile from an agent.",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

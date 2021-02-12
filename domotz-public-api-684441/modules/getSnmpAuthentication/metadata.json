@@ -1,0 +1,8 @@
+{
+    "name": "getSnmpAuthentication",
+    "label": "Get SNMP Authentication",
+    "description": "Retrieves the SNMP authentication info",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

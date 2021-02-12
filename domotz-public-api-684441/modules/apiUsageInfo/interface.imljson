@@ -1,0 +1,38 @@
+[
+    {
+        "name": "daily_limit",
+        "label": "Daily Limit",
+        "help": "Number of allowed calls to the API in a 24 hours span.",
+        "type": "integer"
+    },
+    {
+        "name": "concurrent_allowed",
+        "label": "Concurrent Allowed",
+        "help": "Number of allowed calls to the API in a minute.",
+        "type": "integer"
+    },
+    {
+        "name": "daily_usage",
+        "label": "Daily Usage",
+        "help": "Number of API call performed in the last 24 hours.",
+        "type": "integer"
+    },
+    {
+        "name": "by_key",
+        "label": "By Key",
+        "type": "array",
+        "spec": {}
+    },
+    {
+        "name": "by_ip",
+        "label": "By Ip",
+        "type": "array",
+        "spec": {}
+    },
+    {
+        "name": "by_resource",
+        "label": "By Resource",
+        "type": "array",
+        "spec": {}
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "name": "deleteEyeSnmpTriggerAlert",
+    "label": "Delete Eye SNMP Trigger Alert",
+    "description": "Deletes the alert for thee SNMP trigger",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,19 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/snmp-authentication",
+    "method": "PUT",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "version": "{{parameters.version}}",
+        "snmp_read_community": "{{parameters.snmp_read_community}}",
+        "snmp_write_community": "{{parameters.snmp_write_community}}",
+        "username": "{{parameters.username}}",
+        "authentication_protocol": "{{parameters.authentication_protocol}}",
+        "authentication_key": "{{parameters.authentication_key}}",
+        "encryption_protocol": "{{parameters.encryption_protocol}}",
+        "encryption_key": "{{parameters.encryption_key}}"
+    }
+}

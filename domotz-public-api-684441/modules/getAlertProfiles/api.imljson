@@ -1,0 +1,11 @@
+{
+    "url": "/user/{{parameters.user_id}}/alert-profile",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

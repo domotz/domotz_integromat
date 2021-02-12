@@ -1,0 +1,8 @@
+{
+    "name": "getSpeedTestHistory",
+    "label": "Get Speed Test History",
+    "description": "Returns the time series of the Internet Speed measurements taken from the agent, both in download and in upload.",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

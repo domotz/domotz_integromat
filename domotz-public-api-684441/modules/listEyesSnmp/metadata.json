@@ -1,0 +1,8 @@
+{
+    "name": "listEyesSnmp",
+    "label": "List Eyes SNMP",
+    "description": "Retrieves the list of configured SNMP Domotz Eyes",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

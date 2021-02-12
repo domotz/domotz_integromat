@@ -1,0 +1,178 @@
+[
+    {
+        "name": "id",
+        "label": "Id",
+        "type": "integer"
+    },
+    {
+        "name": "display_name",
+        "label": "Display Name",
+        "type": "text"
+    },
+    {
+        "name": "access_right",
+        "label": "Access Right",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "status",
+                "label": "Status",
+                "help": "<ul><li>\n*OWNED*: you own this agent\n</li><li>\n*PROPOSED*: the owner proposed you to access the agent, you can accept or reject the offer\n</li><li>\n*GRANTED*: you accepted the collaboration request for this agent\n</li><li>\n*ASSIGNED*: your team leader has given you access to the agent\n</li></ul>",
+                "type": "text"
+            },
+            {
+                "name": "api_enabled",
+                "label": "Api Enabled",
+                "help": "If `false` the agent plan doesn't allow for API access: you only can see this agent in the list",
+                "type": "boolean"
+            },
+            {
+                "name": "granting_user",
+                "label": "Granting User",
+                "type": "collection",
+                "spec": [
+                    {
+                        "name": "name",
+                        "label": "Name",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "creation_time",
+        "label": "Creation Time",
+        "type": "text"
+    },
+    {
+        "name": "status",
+        "label": "Status",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "value",
+                "label": "Value",
+                "type": "text"
+            },
+            {
+                "name": "last_change",
+                "label": "Last Change",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "licence",
+        "label": "Licence",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "bound_mac_address",
+                "label": "Bound Mac Address",
+                "help": "The MAC address of the primary interface of the device the software agent runs on",
+                "type": "text"
+            },
+            {
+                "name": "code",
+                "label": "Code",
+                "type": "text"
+            },
+            {
+                "name": "id",
+                "label": "Id",
+                "type": "integer"
+            },
+            {
+                "name": "activation_time",
+                "label": "Activation Time",
+                "type": "text"
+            },
+            {
+                "name": "expiration_time",
+                "label": "Expiration Time",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "timezone",
+        "label": "Timezone",
+        "type": "text"
+    },
+    {
+        "name": "version",
+        "label": "Version",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "agent",
+                "label": "Agent",
+                "type": "text"
+            },
+            {
+                "name": "package",
+                "label": "Package",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "team",
+        "label": "Team",
+        "help": "The Team and Company Area information, only available for companies",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "area",
+                "label": "Area",
+                "type": "collection",
+                "spec": [
+                    {
+                        "name": "id",
+                        "label": "Id",
+                        "type": "integer"
+                    }
+                ]
+            },
+            {
+                "name": "id",
+                "label": "Id",
+                "type": "integer"
+            },
+            {
+                "name": "leader_id",
+                "label": "Leader Id",
+                "type": "integer"
+            },
+            {
+                "name": "name",
+                "label": "Name",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "listen_on",
+        "label": "Listen On",
+        "help": "The local IP and port the Domotz Agent software is listening on if online - the last known value otherwise",
+        "type": "text"
+    },
+    {
+        "name": "location",
+        "label": "Location",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "latitude",
+                "label": "Latitude",
+                "type": "text"
+            },
+            {
+                "name": "longitude",
+                "label": "Longitude",
+                "type": "text"
+            }
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "name": "listAreas",
+    "label": "List Areas",
+    "description": "Returns all the areas of a company",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

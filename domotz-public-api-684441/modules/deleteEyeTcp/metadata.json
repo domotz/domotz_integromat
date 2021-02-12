@@ -1,0 +1,8 @@
+{
+    "name": "deleteEyeTcp",
+    "label": "Delete Eye TCP",
+    "description": "Deletes the TCP Domotz Eye",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "name": "limit",
+        "label": "Limit",
+        "help": "Number of allowed Domotz Eyes for the agent",
+        "type": "integer"
+    },
+    {
+        "name": "usage",
+        "label": "Usage",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "total",
+                "label": "Total",
+                "help": "Number of configured Domotz Eyes on the agent.",
+                "type": "integer"
+            },
+            {
+                "name": "tcp",
+                "label": "Tcp",
+                "help": "Number of configured Domotz Eyes of type `tcp` on the agent.",
+                "type": "integer"
+            },
+            {
+                "name": "snmp",
+                "label": "Snmp",
+                "help": "Number of configured Domotz Eyes of type `snmp` on the agent.",
+                "type": "integer"
+            }
+        ]
+    }
+]

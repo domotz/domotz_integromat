@@ -1,0 +1,8 @@
+{
+    "name": "getAgentRtdStats",
+    "label": "Get Agent RTD Stats",
+    "description": "Returns the round trip delay statistics for all devices monitored by the agent. The aggregate values of avg_min, avg_max, avg_median help to understand the baseline response time of a device in a weekly time frame, while latest_median helps detecting a possible deviation from the baseline",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

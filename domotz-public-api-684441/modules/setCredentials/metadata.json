@@ -1,0 +1,8 @@
+{
+    "name": "setCredentials",
+    "label": "Set Credentials on a Device",
+    "description": "Sets the device credentials to perform extended discovery. This operation will affect the <b> authentication_status </b> of the device",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

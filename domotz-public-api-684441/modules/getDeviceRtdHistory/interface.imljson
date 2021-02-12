@@ -1,0 +1,26 @@
+[
+    {
+        "name": "timestamp",
+        "type": "date"
+    },
+    {
+        "name": "min",
+        "type": "text"
+    },
+    {
+        "name": "median",
+        "type": "text"
+    },
+    {
+        "name": "max",
+        "type": "text"
+    },
+    {
+        "name": "lost_packet_count",
+        "type": "number"
+    },
+    {
+        "name": "sent_packet_count",
+        "type": "number"
+    }
+]

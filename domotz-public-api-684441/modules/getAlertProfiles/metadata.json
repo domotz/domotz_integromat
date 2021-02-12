@@ -1,0 +1,8 @@
+{
+    "name": "getAlertProfiles",
+    "label": "Get Alert Profiles",
+    "description": "Returns the list of configured alert profiles. You can configure alert profiles on the Domotz Portal. Alert profiles define the association between a list of events and a notification channel (email, webhook or slack)",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

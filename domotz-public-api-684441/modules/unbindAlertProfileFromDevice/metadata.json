@@ -1,0 +1,8 @@
+{
+    "name": "unbindAlertProfileFromDevice",
+    "label": "Unbind Alert Profile From Device",
+    "description": "Unbinds an alert profile from a device",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

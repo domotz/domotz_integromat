@@ -1,0 +1,13 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device",
+    "method": "GET",
+    "headers": {},
+    "qs": {
+        "show_hidden": "{{parameters.show_hidden}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "limit",
+        "label": "Limit",
+        "help": "Maximum connection consumption (bytes)",
+        "type": "integer"
+    },
+    {
+        "name": "current",
+        "label": "Current",
+        "help": "Current connection consumption (bytes)",
+        "type": "integer"
+    }
+]

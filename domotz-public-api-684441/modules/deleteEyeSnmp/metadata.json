@@ -1,0 +1,8 @@
+{
+    "name": "deleteEyeSnmp",
+    "label": "Delete Eye SNMP",
+    "description": "Deletes the SNMP Domotz Eye",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "deleteAgent",
+    "label": "Delete Agent",
+    "description": "Deletes an agent",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

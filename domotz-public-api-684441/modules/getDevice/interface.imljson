@@ -1,0 +1,201 @@
+[
+    {
+        "name": "id",
+        "label": "Id",
+        "type": "integer"
+    },
+    {
+        "name": "main_id",
+        "label": "Main Id",
+        "help": "In a clustered configuration, the main device id",
+        "type": "integer"
+    },
+    {
+        "name": "display_name",
+        "label": "Display Name",
+        "type": "text"
+    },
+    {
+        "name": "protocol",
+        "label": "Protocol",
+        "type": "text"
+    },
+    {
+        "name": "authentication_status",
+        "label": "Authentication Status",
+        "help": "When defined the device requires authentication info to perform extended discovery <ul>\n<li>\n*REQUIRED*: the device requires authentication, extended discovery is locked\n</li><li>\n*PENDING*: credentials have been submitted but not verified yet\n</li><li>\n*WRONG_CREDENTIALS*: device authentication failed\n</li><li>\n*AUTHENTICATED*: device authentication succeeded\n</li></ul>",
+        "type": "text"
+    },
+    {
+        "name": "user_data",
+        "label": "User Data",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "model",
+                "label": "Model",
+                "type": "text"
+            },
+            {
+                "name": "name",
+                "label": "Name",
+                "type": "text"
+            },
+            {
+                "name": "type",
+                "label": "Type",
+                "type": "integer"
+            },
+            {
+                "name": "vendor",
+                "label": "Vendor",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "first_seen_on",
+        "label": "First Seen On",
+        "type": "text"
+    },
+    {
+        "name": "importance",
+        "label": "Importance",
+        "type": "text"
+    },
+    {
+        "name": "type",
+        "label": "Type",
+        "help": "The device type, if recognised by domotz",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "id",
+                "label": "Id",
+                "type": "integer"
+            },
+            {
+                "name": "detected_id",
+                "label": "Detected Id",
+                "type": "integer"
+            }
+        ]
+    },
+    {
+        "name": "details",
+        "label": "Details",
+        "help": "DeviceDetails",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "zone",
+                "label": "Zone",
+                "type": "text"
+            },
+            {
+                "name": "room",
+                "label": "Room",
+                "type": "text"
+            },
+            {
+                "name": "snmp_read_community",
+                "label": "Snmp Read Community",
+                "help": "Deprecated. Please use <a href='#getsnmpauthentication'> getSNMPAuthentication </a>",
+                "type": "text"
+            },
+            {
+                "name": "snmp_write_community",
+                "label": "Snmp Write Community",
+                "help": "Deprecated. Please use <a href='#getsnmpauthentication'> getSNMPAuthentication </a>",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "ip_addresses",
+        "label": "Ip Addresses",
+        "type": "array",
+        "spec": {}
+    },
+    {
+        "name": "last_status_change",
+        "label": "Last Status Change",
+        "type": "text"
+    },
+    {
+        "name": "status",
+        "label": "Status",
+        "type": "text"
+    },
+    {
+        "name": "vendor",
+        "label": "Vendor",
+        "type": "text"
+    },
+    {
+        "name": "grace_period",
+        "label": "Grace Period",
+        "help": "The number of seconds a device must be unreachable before being declared DOWN",
+        "type": "integer"
+    },
+    {
+        "name": "model",
+        "label": "Model",
+        "type": "text"
+    },
+    {
+        "name": "agent_reachable",
+        "label": "Agent Reachable",
+        "help": "When `true` the device is reachable by the agent over an IP network.\nWhen `false` Domotz knows about the status of the device by the means of another source e.g. a third party controller.\n\nThis field is significant only when the status of the device is `ONLINE` and its value is `false` because it means\nthat even if the IP device is up and running, many features aren't allowed, such as the direct connection or the TCP\nservices monitoring.",
+        "type": "boolean"
+    },
+    {
+        "name": "hw_address",
+        "label": "Hw Address",
+        "help": "MAC Address",
+        "type": "text"
+    },
+    {
+        "name": "names",
+        "label": "Names",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "host",
+                "label": "Host",
+                "type": "text"
+            },
+            {
+                "name": "bonjour",
+                "label": "Bonjour",
+                "type": "text"
+            },
+            {
+                "name": "upnp",
+                "label": "Upnp",
+                "type": "text"
+            },
+            {
+                "name": "snmp",
+                "label": "Snmp",
+                "type": "text"
+            },
+            {
+                "name": "dhcp",
+                "label": "Dhcp",
+                "type": "text"
+            },
+            {
+                "name": "inspection",
+                "label": "Inspection",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "is_jammed",
+        "label": "Is Jammed",
+        "help": "When true, the Domotz Agent is blocking the device to access the Internet. The device can still reach every other device in the local network",
+        "type": "boolean"
+    }
+]

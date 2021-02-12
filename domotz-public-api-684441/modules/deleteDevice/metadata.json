@@ -1,0 +1,8 @@
+{
+    "name": "deleteDevice",
+    "label": "Delete Device",
+    "description": "Deletes a device, whether ONLINE, OFFLINE or DOWN . If a device  is deleted while online, it may reappear when rediscovered automatically",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

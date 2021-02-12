@@ -1,0 +1,8 @@
+{
+    "name": "createEyeSnmp",
+    "label": "Create Eye SNMP",
+    "description": "Creates a new SNMP Domotz Eyes",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

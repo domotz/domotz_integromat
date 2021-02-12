@@ -1,0 +1,46 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "user_id",
+        "label": "User Id",
+        "help": "User ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://getUser",
+            "nested": [
+                {
+                    "name": "alert_profile_id",
+                    "label": "Alert Profile Id",
+                    "help": "Profile ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseAlertProfiles"
+                    }
+                }
+            ]
+        }
+    }
+]

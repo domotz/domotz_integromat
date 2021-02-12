@@ -1,0 +1,13 @@
+{
+    "url": "/area/{{parameters.area_id}}/team",
+    "method": "POST",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "name": "{{parameters.name}}",
+        "leader": "{{parameters.leader}}"
+    }
+}

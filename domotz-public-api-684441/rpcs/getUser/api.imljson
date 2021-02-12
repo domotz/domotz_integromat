@@ -1,0 +1,10 @@
+{
+    "url": "/user",
+    "method": "GET",
+    "response": {
+        "output": {
+            "label": "{{body.name}}",
+            "value": "{{body.id}}"
+        }
+    }
+}

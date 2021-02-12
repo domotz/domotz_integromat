@@ -1,0 +1,14 @@
+[
+    {
+        "name": "URL",
+        "type": "text",
+        "label": "API Endpoint",
+        "required": true
+    },
+    {
+        "name": "apiKey",
+        "type": "text",
+        "label": "API Key",
+        "required": true
+    }
+]

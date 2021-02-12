@@ -1,0 +1,8 @@
+{
+    "name": "getEyesSnmpHistory",
+    "label": "Get Eyes SNMP History",
+    "description": "Returns the time series of the SNMP Domotz Eyes collected samples",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

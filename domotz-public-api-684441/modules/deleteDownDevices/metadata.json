@@ -1,0 +1,8 @@
+{
+    "name": "deleteDownDevices",
+    "label": "Delete Down Devices",
+    "description": "Deletes all the DOWN devices of IP protocol",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

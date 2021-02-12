@@ -1,0 +1,14 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/history/rtd",
+    "method": "GET",
+    "headers": {},
+    "qs": {
+        "from": "{{parameters.from}}",
+        "to": "{{parameters.to}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

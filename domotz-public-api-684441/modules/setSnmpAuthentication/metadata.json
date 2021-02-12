@@ -1,0 +1,8 @@
+{
+    "name": "setSnmpAuthentication",
+    "label": "Set SNMP Authentication on a Device",
+    "description": "Sets the SNMP authentication info. \"snmp_read_community\" and \"snmp_write_community\" are  relevant only for \"V1\" and \"V2\". \"V3_NO_AUTH\" requires a valid username. \"V3_AUTH_NO_PRIV\" requires username, authentication_protocol and authentication_key. \"V3_AUTH_PRIV\" requires username, authentication_protocol, authentication_key, encryption_protocol and encryption_key. ",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

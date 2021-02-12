@@ -1,0 +1,8 @@
+{
+    "name": "listEyesSnmpTriggerFunction",
+    "label": "List Eyes SNMP Trigger Function",
+    "description": "Retrieves the list of functions for the SNMP trigger Domotz Eyes",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

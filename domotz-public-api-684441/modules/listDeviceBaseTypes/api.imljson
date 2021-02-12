@@ -1,0 +1,11 @@
+{
+    "url": "/type/device/base",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

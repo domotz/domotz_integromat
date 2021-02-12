@@ -1,0 +1,8 @@
+{
+    "name": "apiUsageInfo",
+    "label": "Get API Usage Info",
+    "description": "Retrieves information about API usage and limits",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

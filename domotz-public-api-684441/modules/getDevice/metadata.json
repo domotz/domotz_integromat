@@ -1,0 +1,8 @@
+{
+    "name": "getDevice",
+    "label": "Get Device",
+    "description": "Returns the details of a device",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

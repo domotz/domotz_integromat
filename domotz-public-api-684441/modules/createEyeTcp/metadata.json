@@ -1,0 +1,8 @@
+{
+    "name": "createEyeTcp",
+    "label": "Create Eye TCP",
+    "description": "Creates a new TCP Domotz Eyes",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

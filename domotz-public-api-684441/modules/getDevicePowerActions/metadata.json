@@ -1,0 +1,8 @@
+{
+    "name": "getDevicePowerActions",
+    "label": "Get Device Power Actions",
+    "description": "Returns the power management actions available on the device at the current moment. See Get Device Power Action method for further details.",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

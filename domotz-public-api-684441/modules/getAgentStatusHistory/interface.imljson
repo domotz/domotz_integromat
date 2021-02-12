@@ -1,0 +1,10 @@
+[
+    {
+        "name": "timestamp",
+        "type": "text"
+    },
+    {
+        "name": "type",
+        "type": "text"
+    }
+]

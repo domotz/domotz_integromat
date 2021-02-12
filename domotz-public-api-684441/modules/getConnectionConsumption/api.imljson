@@ -1,0 +1,10 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/connection/consumption",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

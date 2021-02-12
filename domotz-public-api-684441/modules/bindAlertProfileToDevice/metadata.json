@@ -1,0 +1,8 @@
+{
+    "name": "bindAlertProfileToDevice",
+    "label": "Bind Alert Profile to Device",
+    "description": "Binds an alert profile to a device. After binding, a webhook will be sent to the configured service when one of the events associated to the profile occurs. You can configure the profile and the webhook endpoint on the Domotz Portal",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

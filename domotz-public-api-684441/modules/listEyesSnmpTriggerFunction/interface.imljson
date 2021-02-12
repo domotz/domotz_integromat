@@ -1,0 +1,21 @@
+[
+    {
+        "name": "id",
+        "type": "number"
+    },
+    {
+        "name": "name",
+        "type": "text"
+    },
+    {
+        "name": "cardinality",
+        "type": "number"
+    },
+    {
+        "name": "value_types",
+        "type": "array",
+        "spec": {
+            "type": "text"
+        }
+    }
+]

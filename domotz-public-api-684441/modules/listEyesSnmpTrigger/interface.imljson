@@ -1,0 +1,35 @@
+[
+    {
+        "name": "id",
+        "type": "number"
+    },
+    {
+        "name": "name",
+        "type": "text"
+    },
+    {
+        "name": "function_id",
+        "type": "number"
+    },
+    {
+        "name": "operands",
+        "type": "array",
+        "spec": {
+            "type": "text"
+        }
+    },
+    {
+        "name": "creation_time",
+        "type": "text"
+    },
+    {
+        "name": "alert",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "email",
+                "type": "boolean"
+            }
+        ]
+    }
+]

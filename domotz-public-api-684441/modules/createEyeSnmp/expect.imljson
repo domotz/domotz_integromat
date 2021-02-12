@@ -1,0 +1,48 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "oid",
+        "label": "Oid",
+        "help": "The OID string",
+        "type": "text"
+    },
+    {
+        "name": "name",
+        "label": "Name",
+        "help": "The name of the Domotz Eyes",
+        "type": "text"
+    },
+    {
+        "name": "category",
+        "label": "Category",
+        "help": "The category of the OID",
+        "type": "text"
+    },
+    {
+        "name": "value_type",
+        "label": "Value Type",
+        "help": "The type of the OID",
+        "type": "text"
+    }
+]

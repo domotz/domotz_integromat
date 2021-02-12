@@ -1,0 +1,8 @@
+{
+    "name": "createTeam",
+    "label": "Create Team",
+    "description": "Creates a new team",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,10 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/eye/snmp/{{parameters.sensor_id}}/trigger/{{parameters.trigger_id}}/alert/{{parameters.medium_name}}",
+    "method": "DELETE",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

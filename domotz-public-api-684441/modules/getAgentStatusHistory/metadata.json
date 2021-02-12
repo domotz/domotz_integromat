@@ -1,0 +1,8 @@
+{
+    "name": "getAgentStatusHistory",
+    "label": "Get Agent Status History",
+    "description": "Returns the time series of the state changes of the agent",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

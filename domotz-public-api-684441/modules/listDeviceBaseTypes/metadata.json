@@ -1,0 +1,8 @@
+{
+    "name": "listDeviceBaseTypes",
+    "label": "List Device Base Types",
+    "description": "Returns the device types list",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

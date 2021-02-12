@@ -1,0 +1,10 @@
+{
+    "url": "/alert-profile/{{parameters.alert_profile_id}}/binding/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}",
+    "method": "DELETE",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

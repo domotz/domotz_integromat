@@ -1,0 +1,8 @@
+{
+    "name": "getAgent",
+    "label": "Get Agent",
+    "description": "Returns the details of an agent",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

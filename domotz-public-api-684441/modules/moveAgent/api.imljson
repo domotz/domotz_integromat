@@ -1,0 +1,10 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/ownership/team/{{parameters.team_id}}",
+    "method": "PUT",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

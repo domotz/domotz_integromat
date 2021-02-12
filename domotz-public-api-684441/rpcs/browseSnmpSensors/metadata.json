@@ -1,0 +1,5 @@
+{
+    "name": "browseSnmpSensors",
+    "label": "Browse SNMP Sensors",
+    "connection": "domotz-public-api-684441"
+}

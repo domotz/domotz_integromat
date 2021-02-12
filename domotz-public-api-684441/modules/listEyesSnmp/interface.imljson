@@ -1,0 +1,30 @@
+[
+    {
+        "name": "id",
+        "type": "number"
+    },
+    {
+        "name": "category",
+        "type": "text"
+    },
+    {
+        "name": "value_type",
+        "type": "text"
+    },
+    {
+        "name": "oid",
+        "type": "text"
+    },
+    {
+        "name": "name",
+        "type": "text"
+    },
+    {
+        "name": "latest_value",
+        "type": "text"
+    },
+    {
+        "name": "last_update",
+        "type": "text"
+    }
+]

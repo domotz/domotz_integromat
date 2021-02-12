@@ -1,0 +1,5 @@
+{
+    "name": "browseAlertProfiles",
+    "label": "Browse Alert Profiles",
+    "connection": "domotz-public-api-684441"
+}

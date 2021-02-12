@@ -1,0 +1,8 @@
+{
+    "name": "moveAgent",
+    "label": "Move Agent",
+    "description": "Moves an agent under the control of a different team",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "listEyesSnmpTrigger",
+    "label": "List Eyes SNMP Trigger",
+    "description": "Retrieves the list of triggers for the SNMP Sensor",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

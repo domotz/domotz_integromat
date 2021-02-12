@@ -1,0 +1,8 @@
+{
+    "name": "createEyeSnmpTriggerAlert",
+    "label": "Create Eye SNMP Trigger Alert",
+    "description": "Adds an alert to a SNMP trigger",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

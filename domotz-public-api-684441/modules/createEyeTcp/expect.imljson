@@ -1,0 +1,30 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "port",
+        "label": "Port",
+        "help": "The port number",
+        "type": "integer"
+    }
+]

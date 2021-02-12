@@ -1,0 +1,8 @@
+{
+    "name": "hideDevice",
+    "label": "Hide Device",
+    "description": "Hides a device (available only on down devices)",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

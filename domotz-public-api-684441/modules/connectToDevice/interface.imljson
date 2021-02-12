@@ -1,0 +1,37 @@
+[
+    {
+        "name": "protocol",
+        "label": "Protocol",
+        "help": "The protocol wrapped by the connection:\n\n</br>- *http/https*: the `link` field in the reply will contain an `https` URL. A browser or a similar user agent must be used:\nthe client must have cookies enabled and the capability of following 302 redirects. If the protocol is `https` the\ndevice's certificate will be accepted without checks and its information ignored (our server will act as a proxy).\n</br>- *tcp*: the `link` field will be in the form `tcp://{host}:{port}`. Any connection established (e.g. with `telnet`\n or `ssh`) on these coordinates will be securely forwarded to the requested `port` of the device.\n </br>- *ssh*: the `link` field will  contain an `https` URL. A browser or a similar user agent must be used:\nthe client must have cookies enabled and the capability of following 302 redirects.\n</br>- *rdp*: the `link` field will  contain an `https` URL. A browser or a similar user agent must be used:\nthe client must have cookies enabled and the capability of following 302 redirects.",
+        "type": "text"
+    },
+    {
+        "name": "port",
+        "label": "Port",
+        "type": "integer"
+    },
+    {
+        "name": "allowed_ip",
+        "label": "Allowed Ip",
+        "help": "The only public IP address allowed to access the connection.\n        It will be impossible to use the connection from other IP addresses. You should use your public IP address. \n\nFor `http` and `https` it is safe, since if you keep\nthe connection link secret nobody will access the device. For `tcp` it is not recommended because a random\nport scan on our servers may allow an hostile actor to use the connection, accessing the device's tcp port as if it was\nin the agent's network.",
+        "type": "text"
+    },
+    {
+        "name": "id",
+        "label": "Id",
+        "help": "The unique identifier of the `connection`",
+        "type": "integer"
+    },
+    {
+        "name": "link",
+        "label": "Link",
+        "help": "Either the link to access the device's HTTP(s) interface in the browser or the host/port coordinates of the proxied TCP port, depending on the protocol (see protocol description in the request)",
+        "type": "text"
+    },
+    {
+        "name": "expiration",
+        "label": "Expiration",
+        "help": "The time after which the connection will be closed",
+        "type": "text"
+    }
+]

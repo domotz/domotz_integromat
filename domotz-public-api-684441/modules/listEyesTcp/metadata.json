@@ -1,0 +1,8 @@
+{
+    "name": "listEyesTcp",
+    "label": "List Eyes TCP",
+    "description": "Retrieves the list of configured TCP Domotz Eyes",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

@@ -1,0 +1,12 @@
+{
+    "url": "/area",
+    "method": "GET",
+    "response": {
+        "limit": 300,
+        "iterate": "{{body}}",
+        "output": {
+            "label": "{{item.name}}",
+            "value": "{{item.id}}"
+        }
+    }
+}

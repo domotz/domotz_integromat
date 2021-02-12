@@ -1,0 +1,14 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/history/network/event",
+    "method": "GET",
+    "headers": {},
+    "qs": {
+        "from": "{{parameters.from}}",
+        "to": "{{parameters.to}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

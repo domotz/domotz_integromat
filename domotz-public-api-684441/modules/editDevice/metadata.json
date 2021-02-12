@@ -1,0 +1,8 @@
+{
+    "name": "editDevice",
+    "label": "Edit Device",
+    "description": "Changes a field of the device or one of its details",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

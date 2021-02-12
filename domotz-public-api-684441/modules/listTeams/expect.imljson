@@ -1,0 +1,10 @@
+[
+    {
+        "name": "area_id",
+        "label": "Area Id",
+        "help": "Area ID",
+        "type": "select",
+        "required": true,
+        "options": "rpc://browseAreas"
+    }
+]

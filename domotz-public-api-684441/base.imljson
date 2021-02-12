@@ -1,0 +1,41 @@
+{
+    "baseUrl": "{{connection.URL}}",
+    "headers": {
+        "X-Api-Key": "{{connection.apiKey}}"
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.X-Api-Key"
+        ]
+    },
+    "response": {
+        "error": {
+            "400": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "401": {
+                "type": "InvalidAccessTokenError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "403": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "404": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "409": {
+                "type": "DuplicateDataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "500": {
+                "type": "RuntimeError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "type": "RuntimeError",
+            "message": "[{{statusCode}}] {{body.error}}"
+        }
+    }
+}

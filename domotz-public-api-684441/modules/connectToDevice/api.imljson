@@ -1,0 +1,14 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/connection",
+    "method": "POST",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "protocol": "{{parameters.protocol}}",
+        "port": "{{parameters.port}}",
+        "allowed_ip": "{{parameters.allowed_ip}}"
+    }
+}

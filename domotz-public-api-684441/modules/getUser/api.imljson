@@ -1,0 +1,10 @@
+{
+    "url": "/user",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

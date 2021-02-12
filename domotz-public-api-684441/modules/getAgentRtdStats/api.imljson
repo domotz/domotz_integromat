@@ -1,0 +1,11 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/rtd",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

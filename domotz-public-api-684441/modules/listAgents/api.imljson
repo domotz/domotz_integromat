@@ -1,0 +1,16 @@
+{
+    "url": "/agent",
+    "method": "GET",
+    "headers": {},
+    "qs": {
+        "page_size": "{{parameters.page_size}}",
+        "page_number": "{{parameters.page_number}}",
+        "display_name": "{{parameters.display_name}}",
+        "team_name": "{{parameters.team_name}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

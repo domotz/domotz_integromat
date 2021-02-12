@@ -1,0 +1,8 @@
+{
+    "name": "getConnectionConsumption",
+    "label": "Get Connection Consumption",
+    "description": "Gets the connection consumption on the given agent",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

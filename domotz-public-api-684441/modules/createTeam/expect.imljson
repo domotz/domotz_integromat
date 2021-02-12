@@ -1,0 +1,50 @@
+[
+    {
+        "name": "area_id",
+        "label": "Area Id",
+        "help": "Area ID",
+        "type": "select",
+        "required": true,
+        "options": "rpc://browseAreas"
+    },
+    {
+        "name": "name",
+        "label": "Name",
+        "help": "The Team's name",
+        "type": "text"
+    },
+    {
+        "name": "leader",
+        "label": "Leader",
+        "help": "The Team Leader",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "name",
+                "label": "Name",
+                "help": "The Team Leader's name",
+                "type": "text"
+            },
+            {
+                "name": "password",
+                "label": "Password",
+                "help": "The Team Leader's password",
+                "type": "text"
+            },
+            {
+                "name": "details",
+                "label": "Details",
+                "help": "The Team Leader's details",
+                "type": "collection",
+                "spec": [
+                    {
+                        "name": "display_name",
+                        "label": "Display Name",
+                        "help": "The Team Leader's display name",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    }
+]

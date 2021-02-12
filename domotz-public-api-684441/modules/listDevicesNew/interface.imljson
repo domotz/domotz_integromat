@@ -1,0 +1,158 @@
+[
+    {
+        "name": "id",
+        "type": "number",
+        "label": "ID"
+    },
+    {
+        "name": "display_name",
+        "type": "text",
+        "label": "Display Name"
+    },
+    {
+        "name": "protocol",
+        "type": "text",
+        "label": "Protocol"
+    },
+    {
+        "name": "authentication_status",
+        "type": "text",
+        "label": "Authentication Status"
+    },
+    {
+        "name": "user_data",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "type",
+                "type": "number",
+                "label": "Type"
+            },
+            {
+                "name": "name",
+                "type": "text",
+                "label": "Name"
+            }
+        ],
+        "label": "User Data"
+    },
+    {
+        "name": "first_seen_on",
+        "type": "text",
+        "label": "First Seen On"
+    },
+    {
+        "name": "importance",
+        "type": "text",
+        "label": "Importance"
+    },
+    {
+        "name": "type",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "detected_id",
+                "type": "number",
+                "label": "Detected ID"
+            },
+            {
+                "name": "id",
+                "type": "number",
+                "label": "ID"
+            }
+        ],
+        "label": "Type"
+    },
+    {
+        "name": "details",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "zone",
+                "type": "text",
+                "label": "Zone"
+            },
+            {
+                "name": "room",
+                "type": "text",
+                "label": "Room"
+            },
+            {
+                "name": "snmp_read_community",
+                "type": "text",
+                "label": "Snmp Read Community"
+            },
+            {
+                "name": "snmp_write_community",
+                "type": "text",
+                "label": "Snmp Write Community"
+            }
+        ],
+        "label": "Details"
+    },
+    {
+        "name": "ip_addresses",
+        "type": "array",
+        "spec": {
+            "type": "text"
+        },
+        "label": "Ip Addresses"
+    },
+    {
+        "name": "last_status_change",
+        "type": "text",
+        "label": "Last Status Change"
+    },
+    {
+        "name": "status",
+        "type": "text",
+        "label": "Status"
+    },
+    {
+        "name": "vendor",
+        "type": "text",
+        "label": "Vendor"
+    },
+    {
+        "name": "grace_period",
+        "type": "number",
+        "label": "Grace Period"
+    },
+    {
+        "name": "model",
+        "type": "text",
+        "label": "Model"
+    },
+    {
+        "name": "agent_reachable",
+        "type": "boolean",
+        "label": "Agent Reachable"
+    },
+    {
+        "name": "hw_address",
+        "type": "text",
+        "label": "Hw Address"
+    },
+    {
+        "name": "names",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "host",
+                "type": "text",
+                "label": "Host"
+            },
+            {
+                "name": "dhcp",
+                "type": "text",
+                "label": "Dhcp"
+            }
+        ],
+        "label": "Names"
+    },
+    {
+        "name": "is_jammed",
+        "type": "boolean",
+        "label": "Is Jammed"
+    }
+]

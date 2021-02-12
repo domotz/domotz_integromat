@@ -1,0 +1,8 @@
+{
+    "name": "makeApiCall",
+    "label": "makeApiCall",
+    "description": "Performs an arbitrary authorized API call",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "universal"
+}

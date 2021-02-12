@@ -1,0 +1,12 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/eye/tcp",
+    "method": "POST",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "port": "{{parameters.port}}"
+    }
+}

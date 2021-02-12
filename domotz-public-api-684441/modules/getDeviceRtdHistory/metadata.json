@@ -1,0 +1,8 @@
+{
+    "name": "getDeviceRtdHistory",
+    "label": "Get Device RTD History",
+    "description": "Returns the Round Trip Delay history for the device. Each item represents the statistical aggregate of a set of Round Trip Delay measurements",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

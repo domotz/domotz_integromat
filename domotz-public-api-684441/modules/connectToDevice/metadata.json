@@ -1,0 +1,8 @@
+{
+    "name": "connectToDevice",
+    "label": "Connect to Device",
+    "description": "Establishes a direct secure connection to the device Current consumption and consumption limits can be retrieved with the Get Connection Consumption method",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

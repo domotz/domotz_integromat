@@ -1,0 +1,11 @@
+{
+    "url": "/area/{{parameters.area_id}}/team",
+    "method": "GET",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "body": {}
+}

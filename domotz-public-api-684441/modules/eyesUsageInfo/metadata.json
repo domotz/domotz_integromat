@@ -1,0 +1,8 @@
+{
+    "name": "eyesUsageInfo",
+    "label": "Get Eyes Usage Info",
+    "description": "Retrieves information about Domotz Eyes usage and limits",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

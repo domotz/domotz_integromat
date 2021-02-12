@@ -1,0 +1,25 @@
+[
+    {
+        "name": "id",
+        "type": "number"
+    },
+    {
+        "name": "name",
+        "type": "text"
+    },
+    {
+        "name": "is_enabled",
+        "type": "boolean"
+    },
+    {
+        "name": "tag",
+        "type": "text"
+    },
+    {
+        "name": "events",
+        "type": "array",
+        "spec": {
+            "type": "text"
+        }
+    }
+]

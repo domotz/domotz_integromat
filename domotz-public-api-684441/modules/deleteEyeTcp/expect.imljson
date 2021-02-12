@@ -1,0 +1,34 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices",
+                        "nested": [
+                            {
+                                "name": "service_id",
+                                "label": "Sensor Id",
+                                "help": "TCP Eye ID",
+                                "type": "select",
+                                "required": true,
+                                "options": "rpc://browseTcpSensors"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

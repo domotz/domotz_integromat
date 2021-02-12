@@ -1,0 +1,10 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/action/power/{{parameters.field}}",
+    "method": "POST",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}

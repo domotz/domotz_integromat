@@ -1,0 +1,36 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "username",
+        "label": "Username",
+        "help": "username",
+        "type": "text"
+    },
+    {
+        "name": "password",
+        "label": "Password",
+        "help": "password",
+        "type": "text"
+    }
+]

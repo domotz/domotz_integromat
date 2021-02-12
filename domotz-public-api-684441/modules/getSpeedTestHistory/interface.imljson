@@ -1,0 +1,13 @@
+[
+    {
+        "name": "timestamp",
+        "type": "text"
+    },
+    {
+        "name": "values",
+        "type": "array",
+        "spec": {
+            "type": "number"
+        }
+    }
+]

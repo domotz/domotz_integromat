@@ -1,0 +1,10 @@
+[
+    {
+        "name": "user_id",
+        "label": "User Id",
+        "help": "User ID",
+        "type": "select",
+        "required": true,
+        "options": "rpc://getUser"
+    }
+]

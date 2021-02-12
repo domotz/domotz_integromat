@@ -1,0 +1,5 @@
+{
+    "name": "getUser",
+    "label": "Get User",
+    "connection": "domotz-public-api-684441"
+}

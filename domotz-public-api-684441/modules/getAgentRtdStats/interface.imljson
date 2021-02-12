@@ -1,0 +1,34 @@
+[
+    {
+        "name": "device_id",
+        "type": "number"
+    },
+    {
+        "name": "timestamp",
+        "type": "date"
+    },
+    {
+        "name": "avg_max",
+        "type": "text"
+    },
+    {
+        "name": "avg_median",
+        "type": "text"
+    },
+    {
+        "name": "avg_min",
+        "type": "text"
+    },
+    {
+        "name": "latest_median",
+        "type": "text"
+    },
+    {
+        "name": "latest_lost_packet_count",
+        "type": "number"
+    },
+    {
+        "name": "latest_sent_packet_count",
+        "type": "number"
+    }
+]

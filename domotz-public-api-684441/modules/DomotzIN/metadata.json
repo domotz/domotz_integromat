@@ -1,0 +1,8 @@
+{
+    "name": "DomotzIN",
+    "label": "Watch Events",
+    "description": "Domotz webhook",
+    "connection": null,
+    "webhook": "domotz-public-api-684441",
+    "type": "instant_trigger"
+}

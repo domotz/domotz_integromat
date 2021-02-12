@@ -1,0 +1,26 @@
+[
+    {
+        "name": "on",
+        "label": "On",
+        "help": "Indicates that the device can be powered on. Available if the device is connected to one or more PDU. <br><br> In the latter case the operation will be performed on all available PDUs.<br><br> If there is no PDU but there is one POE connection, the operation will still available through that connection.",
+        "type": "boolean"
+    },
+    {
+        "name": "off",
+        "label": "Off",
+        "help": "Indicates that the device can be powered off. Available if the device is connected to one or more PDU. <br><br> In the latter case the operation will be performed on all available PDUs.<br><br> If there no PDU but there is one POE connection, the operation will still be available through that connection.<br><br>",
+        "type": "boolean"
+    },
+    {
+        "name": "cycle",
+        "label": "Cycle",
+        "help": "Indicates that a power cycle on the device is possible. Available if the device is connected to just one PDU.",
+        "type": "boolean"
+    },
+    {
+        "name": "software_reboot",
+        "label": "Software Reboot",
+        "help": "Indicates that software reboot on the device is possible.<br><br> The operation availability depends on the device.",
+        "type": "boolean"
+    }
+]

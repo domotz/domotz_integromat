@@ -1,0 +1,48 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices",
+                        "nested": [
+                            {
+                                "name": "sensor_id",
+                                "label": "Sensor Id",
+                                "help": "SNMP Eye ID",
+                                "type": "select",
+                                "required": true,
+                                "options": "rpc://browseSnmpSensors"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "from",
+        "label": "From",
+        "help": "The start time of the time series. Default value is one week",
+        "type": "timestamp",
+        "advanced": true
+    },
+    {
+        "name": "to",
+        "label": "To",
+        "help": "The end time of the time series. Default value is now",
+        "type": "timestamp",
+        "advanced": true
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "agent_id",
+        "label": "Agent Id",
+        "help": "Agent ID",
+        "type": "select",
+        "required": true,
+        "options": {
+            "store": "rpc://browseAgents",
+            "nested": [
+                {
+                    "name": "device_id",
+                    "label": "Device Id",
+                    "help": "Device ID",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://browseDevices",
+                        "nested": [
+                            {
+                                "name": "sensor_id",
+                                "label": "Sensor Id",
+                                "help": "SNMP Eye ID",
+                                "type": "select",
+                                "required": true,
+                                "options": "rpc://browseSnmpSensors"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "function_id",
+        "label": "Function Id",
+        "type": "integer"
+    },
+    {
+        "name": "name",
+        "label": "Name",
+        "help": "The name of the trigger",
+        "type": "text"
+    },
+    {
+        "name": "operands",
+        "label": "Operands",
+        "help": "The operands for the function",
+        "type": "array",
+        "spec": {}
+    }
+]

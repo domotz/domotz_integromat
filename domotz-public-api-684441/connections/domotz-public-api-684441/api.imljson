@@ -1,0 +1,42 @@
+{
+    "url": "{{parameters.URL}}user",
+    "method": "GET",
+    "headers": {
+        "x-api-key": "{{parameters.apiKey}}"
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.x-api-key"
+        ]
+    },
+    "response": {
+        "error": {
+            "400": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "401": {
+                "type": "InvalidAccessTokenError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "403": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "404": {
+                "type": "DataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "409": {
+                "type": "DuplicateDataError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "500": {
+                "type": "RuntimeError",
+                "message": "[{{statusCode}}] {{body.error}}"
+            },
+            "type": "RuntimeError",
+            "message": "[{{statusCode}}] {{body.error}}"
+        }
+    }
+}

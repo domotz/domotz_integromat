@@ -1,0 +1,8 @@
+{
+    "name": "powerActionOnDevice",
+    "label": "Make Power Action on Device",
+    "description": "Performs the action on the device, according to the specified field value. The availability of such operations can be determined with the Get Device Power Actions method",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "action"
+}

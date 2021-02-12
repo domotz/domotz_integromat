@@ -1,0 +1,14 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/eye/snmp/{{parameters.sensor_id}}/trigger",
+    "method": "POST",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {
+        "function_id": "{{parameters.function_id}}",
+        "name": "{{parameters.name}}",
+        "operands": "{{parameters.operands}}"
+    }
+}

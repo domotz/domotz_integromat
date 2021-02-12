@@ -1,0 +1,8 @@
+{
+    "name": "getDevicesAlertProfile",
+    "label": "Get Devices Alert Profile",
+    "description": "Gets the alert profile bindings of the devices of an agent",
+    "connection": "domotz-public-api-684441",
+    "webhook": null,
+    "type": "search"
+}

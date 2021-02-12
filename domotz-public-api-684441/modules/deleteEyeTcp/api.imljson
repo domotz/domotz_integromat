@@ -1,0 +1,10 @@
+{
+    "url": "/agent/{{parameters.agent_id}}/device/{{parameters.device_id}}/eye/tcp/{{parameters.service_id}}",
+    "method": "DELETE",
+    "headers": {},
+    "qs": {},
+    "response": {
+        "output": "{{body}}"
+    },
+    "body": {}
+}
